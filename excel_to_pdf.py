@@ -9,14 +9,14 @@ Setup (one time only):
 2. Install the required library:
    py -m pip install pywin32
 3. Edit the INPUT_FOLDER line below with the path to your Excel files
-4. Run: py excel_to_pdf_via_excel.py
+4. Run: py excel_to_pdf.py
 """
 
 import os
 import win32com.client as win32
 
 # ============ EDIT THIS LINE ONLY ============
-INPUT_FOLDER = r"D:\المخططات الجديدة\مخطط 716\طلبات الاستلام\الحديقه\req"
+INPUT_FOLDER = r"C:\path\to\your\excel_files"
 # ===============================================
 
 OUTPUT_FOLDER = os.path.join(INPUT_FOLDER, "PDF_Output")

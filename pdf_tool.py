@@ -21,7 +21,7 @@ import os
 from pypdf import PdfReader, PdfWriter
 
 # ============ EDIT THIS LINE ONLY ============
-INPUT_FOLDER = r"D:\المخططات الجديدة\مخطط 716\طلبات الاستلام\السيول\CB\New folder\PDF_Output"
+INPUT_FOLDER = r"C:\path\to\your\pdfs"
 # ===============================================
 
 
